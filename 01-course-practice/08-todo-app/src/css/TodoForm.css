@@ -1,0 +1,43 @@
+h1 {
+  margin-bottom: 10px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.todo-add-container {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 12px 16px;
+
+  border: 2px solid #232323;
+  border-radius: 6px;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #078080;
+}
+
+.add-button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #084747;
+  color: #fffffe;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #078080;
+}
