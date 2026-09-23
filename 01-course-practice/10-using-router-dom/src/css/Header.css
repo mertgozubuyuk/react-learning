@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #078080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #222525;
+}
+
+.link-employee,
+.link-company {
+  margin: 5px;
+  text-decoration: none;
+  color: #078080;
+}
