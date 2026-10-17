@@ -1,0 +1,18 @@
+import React from "react";
+import Badge from "@mui/material/Badge";
+import IconButton from "@mui/material/IconButton";
+import MailIcon from "@mui/icons-material/Mail";
+
+function MUIBadge() {
+  return (
+    <div>
+      <IconButton aria-label="show 4 unread messages">
+        <Badge badgeContent={4} color="primary" >
+          <MailIcon />
+        </Badge>
+      </IconButton>
+    </div>
+  );
+}
+
+export default MUIBadge;
